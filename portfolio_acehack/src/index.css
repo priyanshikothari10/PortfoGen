@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gray-900;
+  }
+}
+
+@layer utilities {
+  .bg-gradient-overlay {
+    background: linear-gradient(135deg, rgba(255, 103, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+  }
+}
